@@ -1,18 +1,18 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://learn.hasura.io",
+		"siteUrl": "https://developers.cryptowerk.com",
 		"gaTrackingId": null
 	},
 	"header": {
-		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-		"logoLink": "https://learn.hasura.io",
-		"title": "Gatsby Gitbook Boilerplate",
-		"githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
+		"logo": "https://cryptowerk.com/wp-content/uploads/2018/01/cryptowerk-favicon-1.png",
+		"logoLink": "https://developers.cryptowerk.com/platform/portal/swagger.html",
+		"title": "Developer Docs",
+		"githubUrl": "https://github.com/i001962/gatsby-gitbook-boilerplate",
 		"helpUrl": "",
-		"tweetText": "",
+		"tweetText": "tweet text goes here",
 		"links": [
-			{ "text": "", "link": ""}
+			{ "text": "links text", "link": "test.com"}
 		],
 		"search": {
 			"enabled": false,
@@ -25,20 +25,22 @@ const config = {
 	"sidebar": {
 		"forcedNavOrder": [
 			"/introduction",
-    		"/codeblock"
+    		"/api-userguide",
+				"/faq"
 		],
 		"links": [
-			{ "text": "Hasura", "link": "https://hasura.io"},
+			{ "text": "App Console", "link": "https://developers.cryptowerk.com/platform/portal/swagger.html"},
+			{ "text": "Cryptowerk Homepage", "link": "https://cryptowerk.com"},
 		],
-		"frontline": false,
+		"frontline": true,
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
-		"title": "Gatsby Gitbook Boilerplate | Hasura",
-		"description": "Documentation built with mdx. Powering learn.hasura.io ",
+		"title": "Cryptower Developer Docs",
+		"description": "Documentation built with mdx. Powering developer.crypowerk.com ",
 		"ogImage": null,
 		"docsLocation": "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
-		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+		"favicon": "https://cryptowerk.com/wp-content/uploads/2018/01/cryptowerk-favicon-1.png"
 	},
 };
 
